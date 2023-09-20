@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<!--Layout gambar logo dengan salam pembuka-->
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/home"
-        android:gravity="center"
-        android:textSize="40sp"
-        android:textColor="@color/soft_orange"/>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:padding="10dp">
 
-</FrameLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_rahmatan"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahlan Wa Sahlan"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asyam"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+<!--Layout Untuk Menu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    </LinearLayout>
+
+
+</LinearLayout>
