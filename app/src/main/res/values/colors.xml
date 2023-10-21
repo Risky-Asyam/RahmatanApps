@@ -9,5 +9,14 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#F86F03</color>
     <color name="soft_orange">#FF8551</color>
-    <color name="grey">#F4F4F4</color>
+    <color name="orangeBright">#FFFF6F00</color>
+    <color name="orangeDark">#FFFF8000</color>
+    <color name="orangeYellow">#FFFF6600</color>
+    <color name="orangeLight">#FFFF8500</color>
+    <color name="orangeIntense">#FFFF7F00</color>
+    <color name="orangeRed">#FFFFB200</color>
+    <color name="orangeBrightRed">#FFFF9000</color>
+    <color name="orangeYellowBright">#FFFF9900</color>
+    <color name="orangeWarmYellow">#FFFFAD00</color>
+    <color name="red">#FF0000</color>
 </resources>
